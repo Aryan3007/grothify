@@ -1,0 +1,66 @@
+# Robots.txt - SEO Configuration
+# Generated based on AboutSEO.md best practices
+# Website: https://grothify.vercel.app/
+# Generated: 2025-06-21T09:12:45.589Z
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of admin, private, and temporary areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/
+Disallow: /dev/
+Disallow: /wp-admin/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /search?
+Disallow: /*?
+Disallow: /*.pdf$
+Disallow: /cgi-bin/
+
+# Allow important files for SEO
+Allow: /wp-content/uploads/
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Specific rules for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 2
+
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemaps
+Sitemap: https://grothify.vercel.app//sitemap.xml
+Sitemap: https://grothify.vercel.app//sitemap-images.xml
+Sitemap: https://grothify.vercel.app//sitemap-news.xml
+
+# Additional information
+# Host: grothify.vercel.app/
+# Crawl-delay: 1 second between requests
+# Contact: webmaster@grothify.vercel.app/

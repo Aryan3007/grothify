@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Grothify",
+  "alternateName": "Grothify",
+  "url": "https://grothify.vercel.app/",
+  "description": "Professional services and solutions for your business needs",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Grothify",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://grothify.vercel.app//logo.png"
+    }
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://grothify.vercel.app//search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
