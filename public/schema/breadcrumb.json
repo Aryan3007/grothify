@@ -1,0 +1,12 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Grothify | Digital Marketing Agency",
+      "item": "https://grothify.vercel.app/"
+    }
+  ]
+}
